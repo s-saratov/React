@@ -4,9 +4,9 @@ import ProfileCard from "../../components/ProfileCard/ProfileCard";
 function Homework02() {
   return (
     <div className="homework02-wrapper">
-      <ProfileCard></ProfileCard>
-      <ProfileCard></ProfileCard>
-      <ProfileCard></ProfileCard>
+      <ProfileCard/>
+      <ProfileCard/>
+      <ProfileCard/>
     </div>
   );
 }
