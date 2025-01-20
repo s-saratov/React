@@ -5,10 +5,10 @@ import LessonCard from "../../components/LessonCard/LessonCard";
 function Lesson02() {
   return (
     <div className="lesson02-wrapper">
-      <LessonCard></LessonCard>
-      <Button />
-      <Button />
-      <Button />
+      <LessonCard/>
+      <Button/>
+      <Button/>
+      <Button/>
     </div>
   );
 }
