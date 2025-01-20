@@ -7,6 +7,7 @@ import { lessonData } from "./data";
 function LessonCard() {
   // До return прописываем логику
   console.log(lessonData);
+
   return (
     <div className="lesson-card-wrapper">
       <img src={lessonData.lesson_img} />
