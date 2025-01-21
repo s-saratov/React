@@ -7,8 +7,8 @@ import "./styles.css";
 // }
 
 // Деструктуризация (второй вариант)
-function Button({ name = "SEND" }) {
-  const buttonType = "submit";
+function Button({ name = "SEND", type = "submit" }) {
+  const buttonType = {type};
   // console.log(props.name);
 
   // Деструктуризация (первый вариант)
