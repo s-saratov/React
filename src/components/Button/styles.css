@@ -1,20 +1,24 @@
 .main-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 54px;
-  gap: 10px;
-  width: 470px;
-  height: 70px;
+  width: 100%;
+  min-height: 70px;
   background: #1f27f5;
+  outline: none;
+  border: none;
   border-radius: 4px;
-  box-shadow: none;
   color: rgba(255, 255, 255, 1);
-  font-family: "Lato";
+  font-family: Lato, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 150%;
-  text-align: center;
+  cursor: pointer;
 }
+
+/* .main-button {
+  width: 300px;
+  padding: 20px 30px;
+  background-color: rgb(54, 153, 153);
+  border: none;
+  border-radius: 4px;
+  font-size: 28px;
+  color: rgb(46, 66, 66);
+} */
