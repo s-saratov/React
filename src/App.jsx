@@ -13,6 +13,7 @@ import Lesson05 from "./lessons/Lesson_05/Lesson_05";
 // === Homeworks ===
 // import Homework02 from "./homeworks/Homework_02/Homework_02";
 // import Homework03 from "./homeworks/Homework_03/Homework_03";
+import Homework04 from "./homeworks/Homework_04/Homework_04";
 
 function App() {
   return (
@@ -27,9 +28,7 @@ function App() {
       {/* <Lesson03 /> */}
       {/* <Homework03 /> */}
       {/* --- Topic: functions, hooks(useState) */}
-      {/* <Lesson04 /> */}
-      {/* --- Topic:  map components*/}
-      <Lesson05 />
+      <Lesson04 />
     </div>
   );
 }
