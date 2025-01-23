@@ -8,12 +8,13 @@ import "./App.css";
 // import Lesson02 from "./lessons/Lesson_02/Lesson_02";
 // import Lesson03 from "./lessons/Lesson_03/Lesson_03";
 // import Lesson04 from "./lessons/Lesson_04/Lesson_04";
-import Lesson05 from "./lessons/Lesson_05/Lesson_05";
+// import Lesson05 from "./lessons/Lesson_05/Lesson_05";
 
 // === Homeworks ===
 // import Homework02 from "./homeworks/Homework_02/Homework_02";
 // import Homework03 from "./homeworks/Homework_03/Homework_03";
 // import Homework04 from "./homeworks/Homework_04/Homework_04";
+import Homework05 from "./homeworks/Homework_05/Homework_05";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <Lesson04 /> */}
       {/* <Homework04 /> */}
       {/* --- Topic:  map components*/}
-      <Lesson05 />
+      {/* <Lesson05 /> */}
+      <Homework05 />
     </div>
   );
 }
