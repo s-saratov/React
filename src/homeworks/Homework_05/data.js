@@ -5,10 +5,15 @@ export const products = [
     price: 1.5,
     image: "https://umkacom.by/img/fr03.png",
   },
+  // {
+  //   id: 2,
+  //   name: "Banana",
+  //   price: 1.0,
+  //   image: "https://organicmandya.com/cdn/shop/files/BananaPachabale.jpg",
+  // },
   {
     id: 2,
     name: "Banana",
-    price: 1.0,
     image: "https://organicmandya.com/cdn/shop/files/BananaPachabale.jpg",
   },
   {

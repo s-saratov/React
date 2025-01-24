@@ -7,18 +7,16 @@ import { products } from "./data";
 function Homework05() {
   const productCards = products.map((product) => {
     return (
-      <div key={v4()}>
-        <Product
-          productID={product.id}
-          productName={product.name}
-          productPrice={product.price}
-          productImg={product.image}
-        />
-      </div>
+      <Product
+        key={product.id}
+        productName={product.name}
+        productPrice={product.price}
+        productImg={product.image}
+      />
     );
   });
 
-//   console.log(products);
+  //   console.log(products);
 
   return <div className="homework05-wrapper">{productCards}</div>;
 }
