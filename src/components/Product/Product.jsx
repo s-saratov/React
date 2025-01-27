@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function Product({ productID, productName = "Unknown", productPrice, productImg }) {
+function Product({ productName = "Unknown", productPrice, productImg }) {
   return (
     <div className="product-card-wrapper">
       <img src={productImg} className="product-img" alt="Product image" />
